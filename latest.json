@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "packageName": "com.mahmoodobaid.montajati",
-  "versionName": "1.0.4",
-  "versionCode": 5,
+  "versionName": "1.0.5",
+  "versionCode": 6,
   "minSupportedVersionCode": 4,
-  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.4-build5/montajati-1.0.4-build5.apk",
+  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.5-build6/montajati-1.0.5-build6.apk",
   "storeUrl": "https://mahmoodobaid.github.io/montajati-releases/",
-  "sha256": "7BDE65F428980531FEB25EBCF4A834F52E5B7E48C2E0E908C5707C3BF038E62E",
+  "sha256": "6961BF59C7AEBA03D22AD3FA3574B3854DA1FA78F7675C425A4D31431E0248FC",
   "sizeBytes": 69502737,
-  "publishedAt": "2026-09-24T23:00:06.2902636Z",
+  "publishedAt": "2026-09-25T00:43:16.0574622Z",
   "required": false,
   "releaseNotes": [
-    "إضافة متجر منتجاتي الرسمي",
+    "فتح صفحة التنزيل عبر GitHub Releases عند تعذر GitHub Pages",
     "فحص تلقائي للتحديثات من داخل التطبيق",
     "تنزيل APK والتحقق من SHA256 قبل التثبيت",
     "الحفاظ على Offline-First عند عدم توفر الإنترنت"
