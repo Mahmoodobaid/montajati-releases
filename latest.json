@@ -1,19 +1,24 @@
 {
   "schemaVersion": 1,
   "packageName": "com.mahmoodobaid.montajati",
-  "versionName": "1.0.5",
-  "versionCode": 6,
+  "versionName": "1.0.7",
+  "versionCode": 8,
   "minSupportedVersionCode": 4,
-  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.5-build6/montajati-1.0.5-build6.apk",
+  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.7-build8/montajati-1.0.7-build8.apk",
   "storeUrl": "https://mahmoodobaid.github.io/montajati-releases/",
-  "sha256": "6961BF59C7AEBA03D22AD3FA3574B3854DA1FA78F7675C425A4D31431E0248FC",
-  "sizeBytes": 69502737,
-  "publishedAt": "2026-09-25T00:43:16.0574622Z",
+  "sha256": "D21FCE7EF9EE2FC9269BB6C86847A9D3697E2F73F8AB983E109E2D2CEF973806",
+  "sizeBytes": 69699865,
+  "publishedAt": "2026-09-26T20:58:16.9090408Z",
   "required": false,
   "releaseNotes": [
-    "فتح صفحة التنزيل عبر GitHub Releases عند تعذر GitHub Pages",
-    "فحص تلقائي للتحديثات من داخل التطبيق",
-    "تنزيل APK والتحقق من SHA256 قبل التثبيت",
-    "الحفاظ على Offline-First عند عدم توفر الإنترنت"
+    "تطوير شامل لواجهة الجرد الفعلي لتسريع الإدخال",
+    "إضافة اختيار عدة أصناف بواسطة مربعات Checkbox",
+    "إضافة كل صنف محدد في سطر مستقل تلقائيًا",
+    "منع تكرار الأصناف أثناء الجرد",
+    "الضغط على اسم الصنف يضيف صنفًا واحدًا فقط",
+    "الانتقال التلقائي إلى اسم الصنف في السطر التالي بعد إدخال الجرد الفعلي",
+    "الانتقال التلقائي إلى الصفحة التالية عند اكتمال ستة أسطر",
+    "إنشاء صفحات إضافية تلقائيًا عند إضافة عدد كبير من الأصناف",
+    "تحسينات في الاستقرار والأمان والاشتراكات"
   ]
 }
