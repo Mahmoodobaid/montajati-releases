@@ -1,25 +1,22 @@
 {
   "schemaVersion": 1,
   "packageName": "com.mahmoodobaid.montajati",
-  "versionName": "1.0.9",
-  "versionCode": 10,
+  "versionName": "1.0.10",
+  "versionCode": 11,
   "minSupportedVersionCode": 4,
-  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.9-build10/montajati-1.0.9-build10.apk",
+  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.10-build11/montajati-1.0.10-build11.apk",
   "storeUrl": "https://mahmoodobaid.github.io/montajati-releases/",
-  "sha256": "4886A17B682ADC51A72DEB5D21C114F0583258A1B917999AB3FBE0A26F9512CE",
-  "sizeBytes": 70077181,
-  "publishedAt": "2026-09-27T22:59:16.9826929Z",
+  "sha256": "265B9874FB2D5FD7AA744E96CCB784A1428CC086ADC9E1B28C08C576B68C5CC9",
+  "sizeBytes": 69913549,
+  "publishedAt": "2026-09-28T00:34:16.9088622Z",
   "required": false,
   "releaseNotes": [
-    "إضافة بطاقة عائمة احترافية عند توفر تحديث جديد",
-    "إضافة تحديث الآن وتأجيل التحديث لوقت آخر بدون تكرار البطاقة في نفس الجلسة",
-    "تحسين ترويسة وتذييل التقارير باسم الشركة والمستخدم وتاريخ الطباعة",
-    "تطوير التراجع وحالات أزرار الجرد الفعلي",
-    "إضافة حذف مستند الجرد مع نسخة Excel احتياطية قبل الحذف",
-    "إنشاء بطاقة عالية الجودة لكل صنف عند مشاركة الوسائط",
-    "مشاركة جميع الصور الأصلية للأصناف المحددة",
-    "مشاركة جميع الفيديوهات الأصلية للأصناف المحددة",
-    "الحفاظ على جودة الصور والفيديوهات الأصلية",
-    "تحسين مشاركة الصور والفيديوهات المختلطة عبر WhatsApp"
+    "نظام مشاركة أصناف موحد بمستوى نظام بن عبيد الأم",
+    "إرسال بطاقات الأصناف والصور والفيديوهات المختلطة في دفعة مشاركة واحدة",
+    "خيارات موحدة لواتساب وPNG وPDF وZIP والنص والتطبيقات الأخرى",
+    "إضافة ZIP منظم لكل صنف مع بياناته ووسائطه الأصلية",
+    "الحفاظ على الصور والفيديوهات الأصلية بدون ضغط أو إعادة ترميز",
+    "إضافة قفل إنتاج يمنع تعديل نظام المشاركة المعتمد بالخطأ",
+    "تحسين الاستقرار مع الحفاظ على Offline-First وبيانات المستخدم"
   ]
 }
