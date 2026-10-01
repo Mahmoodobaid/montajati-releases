@@ -2,8 +2,8 @@
 
 هذا المستودع عام للتوزيع فقط ولا يحتوي على كود مصدر تطبيق منتجاتي.
 
-- Latest version: 1.0.12+13
+- Latest version: 1.0.13+14
 - Store: https://mahmoodobaid.github.io/montajati-releases/
 - Reachable fallback store: https://github.com/Mahmoodobaid/montajati-releases/releases
-- APK: https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.12-build13/montajati-1.0.12-build13.apk
-- SHA256: 8FC03780FB7BDDE9491B33A5A239E83841F77D7A6E9BA859150CBCBF8BAD1DA1
+- APK: https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.13-build14/montajati-1.0.13-build14.apk
+- SHA256: 621D84C6E84922987F229AF4E4179E6FAF255F4D1F5AC85AFC606B3AFE3AE3AF
