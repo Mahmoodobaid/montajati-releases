@@ -1,18 +1,19 @@
 {
   "schemaVersion": 1,
   "packageName": "com.mahmoodobaid.montajati",
-  "versionName": "1.0.20",
-  "versionCode": 21,
+  "versionName": "1.0.21",
+  "versionCode": 22,
   "minSupportedVersionCode": 4,
-  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.20-build21/montajati-1.0.20-build21.apk",
+  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.21-build22/montajati-1.0.21-build22.apk",
   "storeUrl": "https://mahmoodobaid.github.io/montajati-releases/",
-  "sha256": "56331033A23306CE1244FAA2C57EFE7B391ABDD4D00235EBBABB8CF67AB114AE",
-  "sizeBytes": 74758869,
-  "publishedAt": "2026-10-12T22:17:20.9174836Z",
+  "sha256": "F19691121066E132F3CE444D5199C0B1BD04E572D7A1799068886626BBFAB290",
+  "sizeBytes": 96840938,
+  "publishedAt": "2026-10-14T05:26:37.0832939Z",
   "required": false,
   "releaseNotes": [
-    "توحيد التسجيل والاستعادة عبر حزمة الاشتراك المشتركة.",
-    "دعم رمز COLL أحادي الاستخدام لتفعيل الحساب أو تجديد الاشتراك المنتهي.",
-    "إرسال رموز الاستعادة للمشترك من حزمة الإدارة عبر شريحة الهاتف."
+    "تحسين مطابقة طلب العميل بالاستفادة من صيغ المفرد والجمع الموجودة في كتالوج الأصناف.",
+    "ترك نتائج التعادل للمراجعة اليدوية بدل اعتماد اختيار غير مؤكد.",
+    "إضافة ملخص جاهزية الطلب والتنبيه إلى السعر والمخزون والأسطر التي تحتاج مراجعة.",
+    "تحديث الإصدار إلى 1.0.21+22 مع الحفاظ على قاعدة بيانات التطبيق عند التحديث."
   ]
 }
