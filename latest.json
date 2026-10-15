@@ -1,19 +1,21 @@
 {
   "schemaVersion": 1,
   "packageName": "com.mahmoodobaid.montajati",
-  "versionName": "1.0.21",
-  "versionCode": 22,
+  "versionName": "1.0.22",
+  "versionCode": 23,
   "minSupportedVersionCode": 4,
-  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.21-build22/montajati-1.0.21-build22.apk",
+  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.22-build23/montajati-1.0.22-build23.apk",
   "storeUrl": "https://mahmoodobaid.github.io/montajati-releases/",
-  "sha256": "F19691121066E132F3CE444D5199C0B1BD04E572D7A1799068886626BBFAB290",
-  "sizeBytes": 96840938,
-  "publishedAt": "2026-10-14T05:26:37.0832939Z",
+  "sha256": "DFDF7A3353562A719E0FBB8377D9519FCE19F5DEB6B9745C384FB8111356B34E",
+  "sizeBytes": 97596302,
+  "publishedAt": "2026-10-15T04:24:24Z",
   "required": false,
   "releaseNotes": [
-    "تحسين مطابقة طلب العميل بالاستفادة من صيغ المفرد والجمع الموجودة في كتالوج الأصناف.",
-    "ترك نتائج التعادل للمراجعة اليدوية بدل اعتماد اختيار غير مؤكد.",
-    "إضافة ملخص جاهزية الطلب والتنبيه إلى السعر والمخزون والأسطر التي تحتاج مراجعة.",
-    "تحديث الإصدار إلى 1.0.21+22 مع الحفاظ على قاعدة بيانات التطبيق عند التحديث."
+    "تحسين تسجيل الفترة التجريبية وتطبيع أرقام الهاتف العربية والفارسية.",
+    "استعادة الحساب تحفظ خطوة الطلب والتحقق بأمان وتسمح بمتابعة العملية بعد إعادة تشغيل التطبيق أو انقطاع الاتصال.",
+    "حقل OTP يدعم الملء التلقائي على Android، ويقبل الأرقام العربية، ويتحقق تلقائيًا عند اكتمال الرمز.",
+    "تسهيل إدخال رمز COLL مع توحيد حالة الأحرف تلقائيًا ورسائل إرشادية أوضح.",
+    "تحسين مطابقة طلب العميل ومراجعة النتائج المتعادلة وملخص جاهزية الطلب.",
+    "الحفاظ على أعمدة ملف Excel المرجعي عند تصدير طلب العميل."
   ]
 }
