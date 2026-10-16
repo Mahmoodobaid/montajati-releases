@@ -1,21 +1,19 @@
 {
   "schemaVersion": 1,
   "packageName": "com.mahmoodobaid.montajati",
-  "versionName": "1.0.22",
-  "versionCode": 23,
+  "versionName": "1.0.24",
+  "versionCode": 25,
   "minSupportedVersionCode": 4,
-  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.22-build23/montajati-1.0.22-build23.apk",
+  "downloadUrl": "https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.24-build25/montajati-1.0.24-build25.apk",
   "storeUrl": "https://mahmoodobaid.github.io/montajati-releases/",
-  "sha256": "DFDF7A3353562A719E0FBB8377D9519FCE19F5DEB6B9745C384FB8111356B34E",
-  "sizeBytes": 97596302,
-  "publishedAt": "2026-10-15T04:24:24Z",
+  "sha256": "92EC0D6C4B9B08DB9E96827EB78EC53D9B2FF75EC40A4FCAC109DE1B5171C9F5",
+  "sizeBytes": 103382269,
+  "publishedAt": "2026-10-16T02:53:20.6457028Z",
   "required": false,
   "releaseNotes": [
-    "تحسين تسجيل الفترة التجريبية وتطبيع أرقام الهاتف العربية والفارسية.",
-    "استعادة الحساب تحفظ خطوة الطلب والتحقق بأمان وتسمح بمتابعة العملية بعد إعادة تشغيل التطبيق أو انقطاع الاتصال.",
-    "حقل OTP يدعم الملء التلقائي على Android، ويقبل الأرقام العربية، ويتحقق تلقائيًا عند اكتمال الرمز.",
-    "تسهيل إدخال رمز COLL مع توحيد حالة الأحرف تلقائيًا ورسائل إرشادية أوضح.",
-    "تحسين مطابقة طلب العميل ومراجعة النتائج المتعادلة وملخص جاهزية الطلب.",
-    "الحفاظ على أعمدة ملف Excel المرجعي عند تصدير طلب العميل."
+    "مزامنة الوسائط وبيانات المنتجات والجرد الفعلي وطلبات العملاء والنواقص وقواعد التعلم، مع استكمال المزامنة تلقائيًا بعد عودة الأجهزة غير المتصلة.",
+    "إضافة إدارة موحدة لاشتراكات التطبيقات وإيقاف أو إعادة تفعيل وصول المستخدمين عند اتصالهم بالإنترنت.",
+    "إضافة إيقاف واستئناف تسجيل المستخدمين الجدد، مع إبقاء المستخدمين السابقين على أجهزتهم المعتمدة.",
+    "تقييد تغيير الجهاز وطلب رمز قبول من المسؤول لتفعيل جهاز بديل."
   ]
 }
