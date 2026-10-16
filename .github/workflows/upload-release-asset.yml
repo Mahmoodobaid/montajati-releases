@@ -1,0 +1,54 @@
+name: Upload Montajati release asset
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: Temporary ref containing the split APK parts
+        required: true
+        type: string
+      release_tag:
+        description: Existing draft release tag
+        required: true
+        type: string
+      asset_name:
+        description: APK filename
+        required: true
+        type: string
+      expected_sha256:
+        description: Expected APK SHA-256
+        required: true
+        type: string
+      expected_size:
+        description: Expected APK size in bytes
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out temporary APK parts
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref }}
+      - name: Reassemble and verify APK
+        env:
+          ASSET_NAME: ${{ inputs.asset_name }}
+          EXPECTED_SHA256: ${{ inputs.expected_sha256 }}
+          EXPECTED_SIZE: ${{ inputs.expected_size }}
+        run: |
+          cat apk.part* > "$ASSET_NAME"
+          test "$(stat -c %s "$ASSET_NAME")" = "$EXPECTED_SIZE"
+          echo "${EXPECTED_SHA256}  ${ASSET_NAME}" | sha256sum --check -
+      - name: Upload and publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+          ASSET_NAME: ${{ inputs.asset_name }}
+        run: |
+          gh release upload "$RELEASE_TAG" "$ASSET_NAME" --repo "$GITHUB_REPOSITORY" --clobber
+          gh release edit "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --draft=false --prerelease=false
