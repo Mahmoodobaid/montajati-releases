@@ -94,6 +94,19 @@
       </aside>
     </main>
 
+    <section class="card" id="windowsCard" hidden>
+      <h2>نسخة الكمبيوتر - Windows 64-bit</h2>
+      <div class="meta">
+        <span class="pill" id="windowsVersion">الإصدار —</span>
+        <span class="pill" id="windowsSize">الحجم —</span>
+        <span class="pill">Windows x64</span>
+      </div>
+      <p class="muted">نزّل الحزمة وفك ضغطها، ثم شغّل Install-Montajati.cmd. سيُحدّث ملفات البرنامج مع الحفاظ على قاعدة البيانات والوسائط المحلية. لا تحذف النسخة السابقة.</p>
+      <a id="windowsDownload" class="btn" href="#" aria-disabled="true">تنزيل تحديث الكمبيوتر</a>
+      <h3>SHA256 للحزمة</h3>
+      <code id="windowsSha">—</code>
+    </section>
+
     <footer>متجر منتجاتي الرسمي • تنزيل مباشر بدون إعلانات</footer>
   </div>
 
@@ -116,6 +129,15 @@
         var a=document.getElementById("download");
         a.href=x.downloadUrl;
         a.removeAttribute("aria-disabled");
+        if(x.windowsDownloadUrl){
+          document.getElementById("windowsCard").hidden=false;
+          document.getElementById("windowsVersion").textContent="الإصدار "+(x.windowsVersionName||x.versionName)+" • build "+(x.windowsVersionCode||x.versionCode);
+          document.getElementById("windowsSize").textContent=formatBytes(x.windowsSizeBytes);
+          document.getElementById("windowsSha").textContent=x.windowsSha256||"—";
+          var w=document.getElementById("windowsDownload");
+          w.href=x.windowsDownloadUrl;
+          w.removeAttribute("aria-disabled");
+        }
         var notes=document.getElementById("notes");
         notes.innerHTML="";
         (x.releaseNotes||[]).forEach(function(note){
