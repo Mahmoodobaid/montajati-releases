@@ -2,12 +2,12 @@
 
 هذا المستودع عام للتوزيع فقط ولا يحتوي على كود مصدر تطبيق منتجاتي.
 
-- Latest version: 1.0.27+28
+- Latest version: 1.0.28+29
 - Store: https://mahmoodobaid.github.io/montajati-releases/
 - Reachable fallback store: https://github.com/Mahmoodobaid/montajati-releases/releases
-- APK: https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.27-build28/montajati-1.0.27-build28.apk
-- SHA256: 41B6BB9719F3E677FB69AAEFBDAF6C0E454FC9A87881C4031A8CC1FAA86624A5
-- Windows x64: https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.27-build28/Montajati-1.0.27+28-Windows-x64-20261017-043959.zip
-- Windows SHA256: 5D89DCF46B6E2662CC1C39596964C8523C2DCA6BE3CFA089137D242C54E13DCF
-- Windows x64: https://github.com/Mahmoodobaid/montajati-releases/releases/download/v1.0.27-build28/Montajati-1.0.27+28-Windows-x64-20261017-043959.zip
-- Windows SHA256: 5D89DCF46B6E2662CC1C39596964C8523C2DCA6BE3CFA089137D242C54E13DCF
+- APK: https://github.com/Mahmoodobaid/montajati-releases/releases/download/latest/montajati-latest.apk
+- SHA256: EB694D18D5C8262C7AE1B3CE58DE7862CA9902E0B2884C33F5D9B0E921F35180
+- Windows x64: https://github.com/Mahmoodobaid/montajati-releases/releases/download/latest/montajati-windows-latest.zip
+- Windows SHA256: 61A89C264E74BBB3B8F9246FEBECA0B7281E669BDAA279A8E4E842C3160D9AA0
+- Windows x64: https://github.com/Mahmoodobaid/montajati-releases/releases/download/latest/montajati-windows-latest.zip
+- Windows SHA256: 61A89C264E74BBB3B8F9246FEBECA0B7281E669BDAA279A8E4E842C3160D9AA0
