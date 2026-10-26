@@ -2,10 +2,10 @@
 
 هذا المستودع عام للتوزيع فقط ولا يحتوي على كود مصدر تطبيق منتجاتي.
 
-- Latest version: 1.0.29+30
+- Latest version: 1.0.30+31
 - Store: https://mahmoodobaid.github.io/montajati-releases/
 - Reachable fallback store: https://github.com/Mahmoodobaid/montajati-releases/releases
 - APK: https://github.com/Mahmoodobaid/montajati-releases/releases/download/latest/montajati-latest.apk
-- SHA256: AEF6CC8519F61E414539BABE4B2709E0CEB132D1C8C12F8E09F6F34851F07966
+- SHA256: 136CCD8F27BAB882ED733C917DDAF2ADC1D2388DB12BF7B279DF72EE6E1C79F9
 - Windows x64: https://github.com/Mahmoodobaid/montajati-releases/releases/download/latest/montajati-windows-latest.zip
-- Windows SHA256: 0FD273EE0E1BF6974C74CABDA06246D2F44B88D040C4173C883A2A9448760D8D
+- Windows SHA256: 323F63BB8B3A0425037B925DDC04B20184459F77ADEAF946D1C7DF331335DC02
